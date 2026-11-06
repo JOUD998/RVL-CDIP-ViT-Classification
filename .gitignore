@@ -1,0 +1,24 @@
+# Python environment
+.venv/
+__pycache__/
+*.pyc
+
+# Datasets
+data/
+*.parquet
+
+# Model checkpoints
+*.pth
+*.pt
+*.ckpt
+*.safetensors
+
+# Jupyter
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# IDE
+.idea/
+.vscode/
