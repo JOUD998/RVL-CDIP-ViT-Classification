@@ -1,0 +1,90 @@
+{
+    "model": "ResNet18 Linear Probing",
+    "evaluation_split": "test",
+    "total_images": 3199,
+    "correct_predictions": 1896,
+    "accuracy_percent": 59.27,
+    "evaluation_loss": 1.3892,
+    "per_class": {
+        "advertisement": {
+            "total": 200,
+            "correct": 156,
+            "accuracy_percent": 78.0
+        },
+        "budget": {
+            "total": 200,
+            "correct": 99,
+            "accuracy_percent": 49.5
+        },
+        "email": {
+            "total": 200,
+            "correct": 155,
+            "accuracy_percent": 77.5
+        },
+        "file-folder": {
+            "total": 200,
+            "correct": 188,
+            "accuracy_percent": 94.0
+        },
+        "form": {
+            "total": 200,
+            "correct": 76,
+            "accuracy_percent": 38.0
+        },
+        "handwritten": {
+            "total": 200,
+            "correct": 173,
+            "accuracy_percent": 86.5
+        },
+        "invoice": {
+            "total": 200,
+            "correct": 105,
+            "accuracy_percent": 52.5
+        },
+        "letter": {
+            "total": 200,
+            "correct": 123,
+            "accuracy_percent": 61.5
+        },
+        "memo": {
+            "total": 200,
+            "correct": 90,
+            "accuracy_percent": 45.0
+        },
+        "news-article": {
+            "total": 200,
+            "correct": 136,
+            "accuracy_percent": 68.0
+        },
+        "presentation": {
+            "total": 200,
+            "correct": 98,
+            "accuracy_percent": 49.0
+        },
+        "questionnaire": {
+            "total": 200,
+            "correct": 63,
+            "accuracy_percent": 31.5
+        },
+        "resume": {
+            "total": 200,
+            "correct": 150,
+            "accuracy_percent": 75.0
+        },
+        "scientific-publication": {
+            "total": 199,
+            "correct": 151,
+            "accuracy_percent": 75.88
+        },
+        "scientific-report": {
+            "total": 200,
+            "correct": 16,
+            "accuracy_percent": 8.0
+        },
+        "specification": {
+            "total": 200,
+            "correct": 117,
+            "accuracy_percent": 58.5
+        }
+    }
+}
