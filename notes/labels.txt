@@ -1,6 +1,6 @@
 Labels
 
-0: advertissement
+0: advertisement
 1: budget
 2: email
 3: file folder

@@ -1,0 +1,25 @@
+{
+  "model": "ViT-B/16 LoRA",
+  "rank": 4,
+  "alpha": 8,
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 1.5038,
+      "validation_loss": 1.2075,
+      "validation_accuracy_percent": 61.88
+    },
+    {
+      "epoch": 2,
+      "train_loss": 1.1045,
+      "validation_loss": 1.0633,
+      "validation_accuracy_percent": 68.16
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.9622,
+      "validation_loss": 1.0015,
+      "validation_accuracy_percent": 69.44
+    }
+  ]
+}

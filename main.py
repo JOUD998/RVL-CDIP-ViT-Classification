@@ -4,7 +4,7 @@ import pyarrow.parquet as pq
 
 # Locate the file relative to main.py
 project_dir = Path(__file__).resolve().parent
-file_path = project_dir / "data/raw/train-00020-of-00119.parquet"
+file_path = project_dir / "data_pipeline/raw/train-00020-of-00119.parquet"
 
 parquet = pq.ParquetFile(file_path)
 
@@ -29,7 +29,7 @@ for index, row in enumerate(sample.to_pylist()):
         f"path={image['path']}",
     )
 
-# Count labels without loading image data
+# Count labels without loading image data_pipeline
 counts = Counter()
 
 for batch in parquet.iter_batches(columns=["label"]):
